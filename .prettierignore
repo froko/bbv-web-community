@@ -1,0 +1,10 @@
+.nx
+
+apps
+libs
+packages
+examples
+
+dist
+
+pnpm-lock.yaml
