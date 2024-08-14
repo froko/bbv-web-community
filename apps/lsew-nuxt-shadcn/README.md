@@ -6,3 +6,4 @@
 ## Genesis
 
 - Create project: `pnpm dlx nuxi@latest init lsew-nuxt-shadcn`
+- Add TypeScript dependency: `pnpm add -D typescript`
