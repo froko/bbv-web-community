@@ -9,3 +9,6 @@
 - Add TypeScript dependency: `pnpm add -D typescript`
 - Add EsLint: `pnpx nuxi module add eslint`
 - Add Tailwind CSS: `pnpx nuxi module add tailwindcss`
+- Add shadcn:
+  - `pnpx nuxi module add shadcn-nuxt`
+  - `pnpx shadcn-vue@latest init`
