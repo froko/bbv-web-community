@@ -26,6 +26,12 @@ importers:
       '@nuxt/eslint':
         specifier: ^0.5.0
         version: 0.5.0(eslint@9.9.0(jiti@1.21.6))(magicast@0.3.4)(rollup@4.20.0)(typescript@5.5.4)(vite@5.4.0(@types/node@22.3.0)(terser@5.31.6))
+      '@nuxtjs/color-mode':
+        specifier: ^3.4.4
+        version: 3.4.4(magicast@0.3.4)(rollup@4.20.0)
+      '@nuxtjs/tailwindcss':
+        specifier: ^6.12.1
+        version: 6.12.1(magicast@0.3.4)(rollup@4.20.0)
       '@tailwindcss/typography':
         specifier: ^0.5.14
         version: 0.5.14(tailwindcss@3.4.10)
@@ -47,6 +53,9 @@ importers:
       shadcn-nuxt:
         specifier: ^0.10.4
         version: 0.10.4(magicast@0.3.4)(rollup@4.20.0)
+      tailwind-hamburgers:
+        specifier: ^1.3.5
+        version: 1.3.5
       tailwind-merge:
         specifier: ^2.5.2
         version: 2.5.2
@@ -57,12 +66,6 @@ importers:
         specifier: latest
         version: 3.4.38(typescript@5.5.4)
     devDependencies:
-      '@nuxtjs/color-mode':
-        specifier: ^3.4.4
-        version: 3.4.4(magicast@0.3.4)(rollup@4.20.0)
-      '@nuxtjs/tailwindcss':
-        specifier: ^6.12.1
-        version: 6.12.1(magicast@0.3.4)(rollup@4.20.0)
       prettier-plugin-tailwindcss:
         specifier: ^0.6.6
         version: 0.6.6(prettier@3.3.3)
@@ -4495,6 +4498,9 @@ packages:
     hasBin: true
     peerDependencies:
       tailwindcss: 1 || 2 || 2.0.1-compat || 3
+
+  tailwind-hamburgers@1.3.5:
+    resolution: {integrity: sha512-0K1wfXWmF73BP3RWZU/UitFycV85f8gG7P0OZDB47fAjJ00hiv5AaFM3bJBtYynwfMG9vMgx05zpBogKVwyT2Q==}
 
   tailwind-merge@2.5.2:
     resolution: {integrity: sha512-kjEBm+pvD+6eAwzJL2Bi+02/9LFLal1Gs61+QB7HvTfQQ0aXwC5LGT8PEt1gS0CWKktKe6ysPTAy3cBC5MeiIg==}
@@ -9860,6 +9866,8 @@ snapshots:
       tailwindcss: 3.4.10
     transitivePeerDependencies:
       - supports-color
+
+  tailwind-hamburgers@1.3.5: {}
 
   tailwind-merge@2.5.2: {}
 

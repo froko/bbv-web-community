@@ -1,5 +1,6 @@
 import animate from 'tailwindcss-animate';
 import typography from '@tailwindcss/typography';
+import hamburger from 'tailwind-hamburgers';
 
 /** @type {import('tailwindcss').Config} */
 export const darkMode = ['class'];
@@ -81,4 +82,4 @@ export const theme = {
     }
   }
 };
-export const plugins = [animate, typography];
+export const plugins = [animate, typography, hamburger];
