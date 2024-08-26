@@ -10,7 +10,7 @@ const nextCompetitionLocation = 'Marbach LU';
       <span class="text-5xl text-secondary md:text-8xl">Ensemble</span> Wettbewerb
     </h1>
 
-    <img src="assets/img/scores.png" alt="scores" >
+    <img src="assets/img/scores.png" alt="scores" />
 
     <div class="mt-8 rounded-xl border-2 border-secondary bg-accent p-8 text-center lg:mt-8">
       <p>Nächster Wettbewerb:</p>
